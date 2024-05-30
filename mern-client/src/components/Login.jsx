@@ -3,6 +3,8 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../contacts/AuthProviders';
 import { GoogleAuthProvider } from 'firebase/auth';
 
+
+
 const Login = () => {
     const { login, loginWithGoogle } = useContext(AuthContext);
     const [error, setError] = useState('');
