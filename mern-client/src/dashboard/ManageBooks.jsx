@@ -28,7 +28,7 @@ const ManageBooks = () => {
 
       {/* table for book data */}
       <div className="overflow-x-auto">
-        <Table className='lg:w-[1188px]'>
+        <Table className='lg:w-[1000px]'>
           <Table.Head>
             <Table.HeadCell>No.</Table.HeadCell>
             <Table.HeadCell>Book name</Table.HeadCell>

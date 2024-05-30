@@ -60,7 +60,7 @@ const UploadBook = () => {
       <h2 className='mb-8 text-3xl font-bold'>Upload A Book</h2>
 
 
-<form onSubmit={handleBookSubmit} className="flex lg:w-[1180px] flex-col flex-wrap gap-4">
+<form onSubmit={handleBookSubmit} className="flex lg:w-[1000px] flex-col flex-wrap gap-4">
         {/* first row */}
       <div className='flex gap-8'>
 

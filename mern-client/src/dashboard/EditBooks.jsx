@@ -13,7 +13,7 @@ const EditBooks = () => {
      'Horror', 'Self-Help', 'Memoir', 'Buisness', 'Children Books',
      'Travel', 'Religion', 'Art and Design'
 ]
-const [selectedBookCategory, setselectedBookCategory]= useState(bookCategories[0])
+const [selectedBookCategory, setselectedBookCategory]= useState(category)
 const handleChangeSelectedValue= (event) =>{
  console.log(event.target.value);
  setselectedBookCategory(event.target.value) ;  
@@ -64,7 +64,7 @@ return (
   <h2 className='mb-8 text-3xl font-bold'>Update A Book</h2>
 
 
-<form onSubmit={handleData} className="flex lg:w-[1180px] flex-col flex-wrap gap-4">
+<form onSubmit={handleData} className="flex lg:w-[1000px] flex-col flex-wrap gap-4">
     {/* first row */}
   <div className='flex gap-8'>
 

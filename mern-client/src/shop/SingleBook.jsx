@@ -10,6 +10,8 @@ const SingleBook = () => {
     window.location.href = bookPDFURL;
   };
   return (
+    
+    <div className='px-4 lg:px-35 py-12 bg-teal-100 flex items-center'>
     <div className='mt-28 px-4 lg:px-24'>
       <div className='flex flex-col md:flex-row justify-between items-cemter gap-2' >
         <div className='flex justify-center items-center '>
@@ -33,6 +35,7 @@ const SingleBook = () => {
 
       </div>
 
+    </div>
     </div>
   )
 }

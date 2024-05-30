@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import dashpic from '../assets/dashbb.jpg';
 
 const Dashboard = () => {
   return (
     <div>
-      Dashboard
+      <img src={dashpic} alt="Dashboard" />
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
